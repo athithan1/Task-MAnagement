@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div style="background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h1 style="color: #2c3e50; margin-bottom: 30px;">Tasks List</h1>
+    {{ range .Pages }}
+    <div style="margin-bottom: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px;">
+        <h2 style="color: #34495e; margin-bottom: 10px;">{{ .Title }}</h2>
+        {{ with .Params.dueDate }}<p style="color: #666;">Due Date: {{ . }}</p>{{ end }}
+        {{ with .Params.status }}<p style="color: #666;">Status: {{ . }}</p>{{ end }}
+        {{ with .Params.assignedTo }}<p style="color: #666;">Assigned To: {{ . }}</p>{{ end }}
+        {{ .Content }}
+    </div>
+    {{ end }}
+</div>
+{{ end }}

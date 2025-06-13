@@ -10,11 +10,19 @@
   </url><url>
     <loc>http://localhost:1313/teachers/teacher1/</loc>
   </url><url>
+    <loc>http://localhost:1313/tasks/task-1/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tasks/task-2/</loc>
+  </url><url>
+    <loc>http://localhost:1313/students/student2/</loc>
+  </url><url>
     <loc>http://localhost:1313/students/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tasks/</loc>
   </url><url>
     <loc>http://localhost:1313/teachers/</loc>
   </url>
