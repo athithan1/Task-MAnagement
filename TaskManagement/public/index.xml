@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Task Management</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Task Management</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aksh</title>
+      <link>http://localhost:1313/students/student-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/students/student-1/</guid>
+      <description>&lt;p&gt;A dedicated student focusing on mathematics and science.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Athithan P</title>
+      <link>http://localhost:1313/teachers/teacher-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teachers/teacher-1/</guid>
+      <description>&lt;p&gt;Mathematics teacher with 5 years experience.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>kevin</title>
+      <link>http://localhost:1313/teachers/teacher1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teachers/teacher1/</guid>
+      <description>&lt;p&gt;kevin has been teaching mathematics for 10 years.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Praveen</title>
+      <link>http://localhost:1313/students/student2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/students/student2/</guid>
+      <description>&lt;p&gt;A dedicated student focusing on mathematics and science.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
