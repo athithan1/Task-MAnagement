@@ -3,7 +3,9 @@
     <h1 style="color: #2c3e50; margin-bottom: 30px;">Teachers List</h1>
     {{ range .Pages }}
     <div style="margin-bottom: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px;">
-        <h2 style="color: #34495e; margin-bottom: 10px;">{{ .Title }}</h2>
+        <h2 style="color: #34495e; margin-bottom: 10px;">
+            <a href="{{ .RelPermalink }}" style="color: #34495e; text-decoration: none; hover: underline;">{{ .Title }}</a>
+        </h2>
         {{ with .Params.subject }}<p style="color: #666;">Subject: {{ . }}</p>{{ end }}
         {{ with .Params.email }}<p style="color: #666;">Contact: <a href="mailto:{{ . }}" style="color: #3498db; text-decoration: none;">{{ . }}</a></p>{{ end }}
         {{ .Content }}
