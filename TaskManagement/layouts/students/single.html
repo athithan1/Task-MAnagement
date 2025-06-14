@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div style="text-align: center; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f0f8ff;">
+    <h1 style="color: #2c3e50;">{{ .Title }}</h1>
+    <div style="background-color: #ffffff; padding: 20px; border-radius: 8px; margin: 20px 0;">
+        <p style="color: #34495e;"><strong>Class:</strong> {{ .Params.class }}</p>
+        <p style="color: #34495e;"><strong>Roll No:</strong> {{ .Params.rollNo }}</p>
+        <p style="color: #34495e;"><strong>Email:</strong> {{ .Params.email }}</p>
+        <p style="color: #34495e;"><strong>Phone:</strong> {{ .Params.phone }}</p>
+        <p style="color: #34495e;"><strong>Address:</strong> {{ .Params.address }}</p>
+        <p style="color: #34495e;"><strong>Parent's Name:</strong> {{ .Params.parentName }}</p>
+        <p style="color: #34495e;"><strong>Parent's Contact:</strong> {{ .Params.parentContact }}</p>
+        <div style="color: #2c3e50; margin-top: 20px;">
+            <h3>About</h3>
+            {{ .Content }}
+        </div>
+    </div>
+    <a href="/students" style="background-color: #3498db; color: white; padding: 10px 20px; text-decoration: none; display: inline-block; border-radius: 5px;">Back to Students List</a>
+</div>
+{{ end }}

@@ -8,18 +8,18 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/students/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Aksh</title>
+      <title>Akash</title>
       <link>http://localhost:1313/students/student-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/students/student-1/</guid>
-      <description>&lt;p&gt;A dedicated student focusing on mathematics and science.&lt;/p&gt;</description>
+      <description>&lt;p&gt;A dedicated student focusing on mathematics and science. Aksh consistently maintains high grades and actively participates in class discussions. He is also a member of the school&amp;rsquo;s mathematics club and has represented the school in several inter-school competitions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Praveen</title>
       <link>http://localhost:1313/students/student2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/students/student2/</guid>
-      <description>&lt;p&gt;A dedicated student focusing on mathematics and science.&lt;/p&gt;</description>
+      <description>&lt;p&gt;A dedicated student focusing on mathematics and science. Praveen shows great interest in problem-solving and analytical thinking. He regularly participates in science fairs and has won several awards for his innovative projects.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
