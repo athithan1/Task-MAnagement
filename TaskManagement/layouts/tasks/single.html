@@ -1,0 +1,55 @@
+{{ define "main" }}
+<div style="text-align: center; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f0f8ff;">
+    <h1 style="color: #2c3e50;">{{ .Title }}</h1>
+    <div style="background-color: #ffffff; padding: 20px; border-radius: 8px; margin: 20px 0;">
+        <div style="display: grid; grid-template-columns: 1fr; gap: 15px; text-align: left;">
+            <div style="padding: 15px; background-color: #e8f4f8; border-radius: 5px;">
+                <p style="color: #34495e; font-size: 1.1em;"><strong>Status:</strong> 
+                    <span style="padding: 5px 10px; border-radius: 3px; background-color: 
+                        {{- if eq .Params.status "Pending" -}}#ffeeba
+                        {{- else if eq .Params.status "Completed" -}}#d4edda
+                        {{- else -}}#f8d7da
+                        {{- end -}};">
+                        {{ .Params.status }}
+                    </span>
+                </p>
+            </div>
+            
+            <p style="color: #34495e;"><strong>Due Date:</strong> {{ .Params.dueDate }}</p>
+            <p style="color: #34495e;"><strong>Assigned To:</strong> {{ .Params.assignedTo }}</p>
+            <p style="color: #34495e;"><strong>Subject:</strong> {{ .Params.subject }}</p>
+            <p style="color: #34495e;"><strong>Category:</strong> {{ .Params.category }}</p>
+            
+            <div style="margin-top: 20px;">
+                <h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 8px;">Task Description</h3>
+                <div style="color: #2c3e50; padding: 15px; background-color: #f8f9fa; border-radius: 5px; margin-top: 10px;">
+                    {{ .Content }}
+                </div>
+            </div>
+            
+            {{ if .Params.requirements }}
+            <div style="margin-top: 20px;">
+                <h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 8px;">Requirements</h3>
+                <ul style="list-style-type: none; padding: 0;">
+                    {{ range .Params.requirements }}
+                    <li style="color: #34495e; margin-bottom: 8px;">• {{ . }}</li>
+                    {{ end }}
+                </ul>
+            </div>
+            {{ end }}
+            
+            {{ if .Params.resources }}
+            <div style="margin-top: 20px;">
+                <h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 8px;">Resources</h3>
+                <ul style="list-style-type: none; padding: 0;">
+                    {{ range .Params.resources }}
+                    <li style="color: #34495e; margin-bottom: 8px;">• {{ . }}</li>
+                    {{ end }}
+                </ul>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+    <a href="/tasks" style="background-color: #3498db; color: white; padding: 10px 20px; text-decoration: none; display: inline-block; border-radius: 5px;">Back to Tasks List</a>
+</div>
+{{ end }}

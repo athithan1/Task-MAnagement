@@ -6,12 +6,12 @@
 </head>
 <body style="margin: 0; display: flex; justify-content: center; min-height: 100vh; background-color: #f0f8ff;">
     <div style="width: 100%; max-width: 800px; padding: 20px; text-align: center;">
-        {{ if not .IsHome }}
         <div style="margin-bottom: 20px;">
             <a href="/" style="background-color: #eb07a6; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Back to Home</a>
         </div>
-        {{ end }}
         {{ block "main" . }}{{ end }}
     </div>
+</body>
+</html>
 </body>
 </html>

@@ -3,10 +3,12 @@
     <h1 style="color: #2c3e50; margin-bottom: 30px;">Tasks List</h1>
     {{ range .Pages }}
     <div style="margin-bottom: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px;">
-        <h2 style="color: #34495e; margin-bottom: 10px;">{{ .Title }}</h2>
-        {{ with .Params.dueDate }}<p style="color: #666;">Due Date: {{ . }}</p>{{ end }}
-        {{ with .Params.status }}<p style="color: #666;">Status: {{ . }}</p>{{ end }}
-        {{ with .Params.assignedTo }}<p style="color: #666;">Assigned To: {{ . }}</p>{{ end }}
+        <h2 style="color: #34495e; margin-bottom: 10px;">
+            <a href="{{ .RelPermalink }}" style="color: #34495e; text-decoration: none; hover: underline;">{{ .Title }}</a>
+        </h2>
+        <p style="color: #666;">Due Date: {{ .Params.dueDate }}</p>
+        <p style="color: #666;">Status: {{ .Params.status }}</p>
+        <p style="color: #666;">Assigned To: {{ .Params.assignedTo }}</p>
         {{ .Content }}
     </div>
     {{ end }}
