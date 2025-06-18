@@ -1,5 +1,5 @@
 ---
-title: "Athithan P"
+title: "Dhanush"
 subjects: "Mathematics"
 email: "athithanteacher@gmail.com"
 phone: "+91 9876543210"

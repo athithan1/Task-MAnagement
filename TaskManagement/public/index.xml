@@ -22,11 +22,11 @@
       <description>&lt;p&gt;Mathematics teacher with 5 years experience. Specialized in making complex mathematical concepts easy to understand through innovative teaching methods. Active participant in curriculum development and student mentoring programs.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>kevin</title>
-      <link>http://localhost:1313/teachers/teacher1/</link>
+      <title>Dhanush</title>
+      <link>http://localhost:1313/teachers/dhanush/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/teachers/teacher1/</guid>
-      <description>&lt;p&gt;kevin has been teaching mathematics for 10 years. Expert in advanced mathematics and competitive exam preparation. Conducts special coaching sessions for Mathematics Olympiad aspirants.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/teachers/dhanush/</guid>
+      <description>&lt;p&gt;Mathematics teacher with 5 years experience. Specialized in making complex mathematical concepts easy to understand through innovative teaching methods. Active participant in curriculum development and student mentoring programs.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mathematics Assignment</title>
@@ -48,6 +48,27 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/students/student2/</guid>
       <description>&lt;p&gt;A dedicated student focusing on mathematics and science. Praveen shows great interest in problem-solving and analytical thinking. He regularly participates in science fairs and has won several awards for his innovative projects.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Priya Raman</title>
+      <link>http://localhost:1313/teachers/tamil-teacher/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teachers/tamil-teacher/</guid>
+      <description>&lt;p&gt;Passionate Tamil teacher with expertise in classical literature and modern Tamil teaching methodologies. Committed to preserving and promoting Tamil language and culture among students.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ramesh Kumar</title>
+      <link>http://localhost:1313/teachers/maths-teacher-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teachers/maths-teacher-2/</guid>
+      <description>&lt;p&gt;Expert mathematics teacher with a Ph.D in Mathematics. Specializes in making geometry and statistics accessible through practical applications and innovative teaching methods.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sarah Johnson</title>
+      <link>http://localhost:1313/teachers/english-teacher/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teachers/english-teacher/</guid>
+      <description>&lt;p&gt;Experienced English teacher specializing in creative writing and literature. Focuses on developing strong communication skills and fostering a love for reading and writing among students.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
