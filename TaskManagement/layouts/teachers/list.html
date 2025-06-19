@@ -4,7 +4,7 @@
 {{ range .Pages }}
 <div>
     <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-    {{ with .Params.subjects }}
+    {{ with .Params.subject }}
     <p>Subject: <a href="/subjects/{{ . | urlize }}">{{ . }}</a></p>
     {{ end }}
     <p>{{ .Content }}</p>
@@ -13,10 +13,13 @@
 
 <div>
     <h2>Browse by Subject</h2>
-    <ul>
-    {{ range $key, $taxonomy := .Site.Taxonomies.subjects }}
-        <li><a href="/subjects/{{ $key | urlize }}">{{ $key }}</a> ({{ len $taxonomy }} teachers)</li>
+    <ul style="list-style: none; padding: 0;">
+    {{ range $key, $taxonomy := .Site.Taxonomies.subject }}
+        <li style="margin: 10px 0;"><a href="/subject/{{ $key | urlize }}" style="color: #3498db; text-decoration: none;">{{ $key }}</a> ({{ len $taxonomy }} teachers)</li>
     {{ end }}
     </ul>
+    <div style="margin-top: 20px;">
+        <a href="/subject" style="background-color: #3498db; color: white; padding: 10px 20px; text-decoration: none; display: inline-block; border-radius: 5px;">View All Subjects</a>
+    </div>
 </div>
 {{ end }}

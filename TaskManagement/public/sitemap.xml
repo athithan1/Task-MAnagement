@@ -6,6 +6,8 @@
   </url><url>
     <loc>http://localhost:1313/teachers/teacher-1/</loc>
   </url><url>
+    <loc>http://localhost:1313/teachers/boopathi/</loc>
+  </url><url>
     <loc>http://localhost:1313/teachers/dhanush/</loc>
   </url><url>
     <loc>http://localhost:1313/subjects/english/</loc>
@@ -25,6 +27,8 @@
     <loc>http://localhost:1313/teachers/english-teacher/</loc>
   </url><url>
     <loc>http://localhost:1313/students/</loc>
+  </url><url>
+    <loc>http://localhost:1313/subject/</loc>
   </url><url>
     <loc>http://localhost:1313/subjects/</loc>
   </url><url>

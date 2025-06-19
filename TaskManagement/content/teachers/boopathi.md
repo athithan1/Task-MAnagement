@@ -1,7 +1,7 @@
 ---
-title: "Priya Raman"
+title: "Boopathi"
 subject: "Tamil"
-email: "priya.raman@gmail.com"
+email: "Boopathi@gmail.com"
 phone: "+91 9876543212"
 qualification: "M.A. Tamil Literature, B.Ed"
 specialization: "Classical Tamil Literature"

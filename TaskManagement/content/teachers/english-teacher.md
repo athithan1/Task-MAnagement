@@ -1,6 +1,6 @@
 ---
 title: "Sarah Johnson"
-subjects: "English"
+subject: "English"
 email: "sarah.johnson@gmail.com"
 phone: "+91 9876543211"
 qualification: "M.A. English Literature, B.Ed"

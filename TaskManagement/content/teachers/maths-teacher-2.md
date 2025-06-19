@@ -1,6 +1,6 @@
 ---
 title: "Ramesh Kumar"
-subjects: "Mathematics"
+subject: "Mathematics"
 email: "ramesh.kumar@gmail.com"
 phone: "+91 9876543213"
 qualification: "M.Sc. Mathematics, Ph.D"

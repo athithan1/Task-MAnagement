@@ -1,6 +1,6 @@
 ---
 title: "Athithan P"
-subjects: "Mathematics"
+subject: "Mathematics"
 email: "athithanteacher@gmail.com"
 phone: "+91 9876543210"
 qualification: "M.Sc. Mathematics, B.Ed"
