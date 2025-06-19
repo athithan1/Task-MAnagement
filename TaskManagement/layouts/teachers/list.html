@@ -15,7 +15,7 @@
     <h2>Browse by Subject</h2>
     <ul style="list-style: none; padding: 0;">
     {{ range $key, $taxonomy := .Site.Taxonomies.subject }}
-        <li style="margin: 10px 0;"><a href="/subject/{{ $key | urlize }}" style="color: #3498db; text-decoration: none;">{{ $key }}</a> ({{ len $taxonomy }} teachers)</li>
+        <li style="margin: 10px 0;"><a href="/subjects/{{ $key | urlize }}" style="color: #3498db; text-decoration: none;">{{ $key }}</a> ({{ len $taxonomy }} teachers)</li>
     {{ end }}
     </ul>
     <div style="margin-top: 20px;">

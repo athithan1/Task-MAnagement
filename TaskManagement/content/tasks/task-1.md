@@ -3,7 +3,7 @@ title: "Mathematics Assignment"
 dueDate: "2024-01-15"
 status: "Pending"
 assignedTo: "10th Grade Students"
-subject: "Mathematics"
+subjects_1 : "Mathematics"
 category: "Homework"
 requirements:
   - "Show all working steps"
