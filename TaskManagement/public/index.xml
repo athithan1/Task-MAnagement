@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Task Management</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Task Management</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mathematics Assignment 02</title>
+      <link>http://localhost:1313/tasks/task-2/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tasks/task-2/</guid>
+      <description>&lt;p&gt;Complete exercises from Chapter 5: Algebra (Pages 45-50)&#xA;Problems include linear equations, quadratic expressions, and factorization exercises.&#xA;Please ensure all work is shown clearly and solutions are properly formatted.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematics Assignment</title>
+      <link>http://localhost:1313/tasks/task-1/</link>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tasks/task-1/</guid>
+      <description>&lt;p&gt;Complete exercises from Chapter 5: Algebra (Pages 45-50)&#xA;Problems include linear equations, quadratic expressions, and factorization exercises.&#xA;Please ensure all work is shown clearly and solutions are properly formatted.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Akash</title>
+      <link>http://localhost:1313/students/student-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/students/student-1/</guid>
+      <description>&lt;p&gt;A dedicated student focusing on mathematics and science. Aksh consistently maintains high grades and actively participates in class discussions. He is also a member of the school&amp;rsquo;s mathematics club and has represented the school in several inter-school competitions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Athithan P</title>
+      <link>http://localhost:1313/teachers/teacher-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teachers/teacher-1/</guid>
+      <description>&lt;p&gt;Mathematics teacher with 5 years experience. Specialized in making complex mathematical concepts easy to understand through innovative teaching methods. Active participant in curriculum development and student mentoring programs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Boopathi</title>
+      <link>http://localhost:1313/students/boopathistudent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/students/boopathistudent/</guid>
+      <description>&lt;p&gt;A dedicated student focusing on mathematics and science. Aksh consistently maintains high grades and actively participates in class discussions. He is also a member of the school&amp;rsquo;s mathematics club and has represented the school in several inter-school competitions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Boopathi</title>
+      <link>http://localhost:1313/teachers/boopathi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teachers/boopathi/</guid>
+      <description>&lt;p&gt;Passionate Tamil teacher with expertise in classical literature and modern Tamil teaching methodologies. Committed to preserving and promoting Tamil language and culture among students.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dhanush</title>
+      <link>http://localhost:1313/teachers/dhanush/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teachers/dhanush/</guid>
+      <description>&lt;p&gt;Mathematics teacher with 5 years experience. Specialized in making complex mathematical concepts easy to understand through innovative teaching methods. Active participant in curriculum development and student mentoring programs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Praveen</title>
+      <link>http://localhost:1313/students/student2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/students/student2/</guid>
+      <description>&lt;p&gt;A dedicated student focusing on mathematics and science. Praveen shows great interest in problem-solving and analytical thinking. He regularly participates in science fairs and has won several awards for his innovative projects.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Priya Raman</title>
+      <link>http://localhost:1313/teachers/tamil-teacher/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teachers/tamil-teacher/</guid>
+      <description>&lt;p&gt;Passionate Tamil teacher with expertise in classical literature and modern Tamil teaching methodologies. Committed to preserving and promoting Tamil language and culture among students.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ramesh Kumar</title>
+      <link>http://localhost:1313/teachers/maths-teacher-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teachers/maths-teacher-2/</guid>
+      <description>&lt;p&gt;Expert mathematics teacher with a Ph.D in Mathematics. Specializes in making geometry and statistics accessible through practical applications and innovative teaching methods.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sarah Johnson</title>
+      <link>http://localhost:1313/teachers/english-teacher/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teachers/english-teacher/</guid>
+      <description>&lt;p&gt;Experienced English teacher specializing in creative writing and literature. Focuses on developing strong communication skills and fostering a love for reading and writing among students.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

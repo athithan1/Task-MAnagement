@@ -1,10 +1,12 @@
 ---
 title: "Mathematics Assignment"
+date: 2024-01-10
 dueDate: "2024-01-15"
 status: "Pending"
 assignedTo: "10th Grade Students"
-subjects_1 : "Mathematics"
+subjects_1: "Mathematics"
 category: "Homework"
+description: "Complete exercises from Chapter 5: Algebra focusing on linear equations, quadratic expressions, and factorization"
 requirements:
   - "Show all working steps"
   - "Use proper mathematical notation"

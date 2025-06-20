@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>10th on Task Management</title>
+    <link>http://localhost:1313/grades/10th/</link>
+    <description>Recent content in 10th on Task Management</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/grades/10th/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Akash</title>
+      <link>http://localhost:1313/students/student-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/students/student-1/</guid>
+      <description>&lt;p&gt;A dedicated student focusing on mathematics and science. Aksh consistently maintains high grades and actively participates in class discussions. He is also a member of the school&amp;rsquo;s mathematics club and has represented the school in several inter-school competitions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Praveen</title>
+      <link>http://localhost:1313/students/student2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/students/student2/</guid>
+      <description>&lt;p&gt;A dedicated student focusing on mathematics and science. Praveen shows great interest in problem-solving and analytical thinking. He regularly participates in science fairs and has won several awards for his innovative projects.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
