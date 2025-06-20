@@ -1,7 +1,6 @@
 ---
-title: "Akash"
-class: "10th Grade"
-grade: "10th"
+title: "Boopathi"
+grade: "9th"
 rollNo: "10123"
 email: "akash@school.com"
 phone: "+91 9876543210"

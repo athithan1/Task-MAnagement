@@ -1,20 +1,20 @@
 {{ define "main" }}
 <div style="background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-    <h1 style="color: #2c3e50; margin-bottom: 30px;">Students List</h1>
-
-    <!-- Students List -->
+    <h1 style="color: #2c3e50; margin-bottom: 30px;">Students in {{ .Title }} Grade</h1>
+    
     {{ range .Pages }}
     <div style="margin-bottom: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px;">
         <h2 style="color: #34495e; margin-bottom: 10px;">
             <a href="{{ .RelPermalink }}" style="color: #34495e; text-decoration: none; hover: underline;">{{ .Title }}</a>
         </h2>
-        {{ with .Params.grade }}
-        <p style="color: #666;">Grade: <a href="/grades/{{ . | urlize }}" style="color: #3498db; text-decoration: none;">{{ . }} Grade</a></p>
-        {{ end }}
         {{ with .Params.rollNo }}<p style="color: #666;">Roll No: {{ . }}</p>{{ end }}
         {{ with .Params.email }}<p style="color: #666;">Contact: <a href="mailto:{{ . }}" style="color: #3498db; text-decoration: none;">{{ . }}</a></p>{{ end }}
         {{ .Content }}
     </div>
     {{ end }}
+
+    <div style="margin-top: 20px;">
+        <a href="/students" style="background-color: #3498db; color: white; padding: 10px 20px; text-decoration: none; display: inline-block; border-radius: 5px;">← Back to All Students</a>
+    </div>
 </div>
-{{ end }}
+{{ end }} 

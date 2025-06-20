@@ -1,6 +1,7 @@
 ---
 title: "Praveen"
 class: "10th Grade"
+grade: "10th"
 rollNo: "102"
 email: "praveen@school.com"
 phone: "+91 9876543220"

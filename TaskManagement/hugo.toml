@@ -4,6 +4,8 @@ title = 'Task Management'
 
 [taxonomies]
   subject = "subject"  
+  grade = "grade"
 
 [permalinks]
   subject = "/subjects/:slug/"  
+  grade = "/grades/:slug/"
