@@ -8,11 +8,32 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/students/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Aarav Kumar</title>
+      <link>http://localhost:1313/students/student-8th-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/students/student-8th-1/</guid>
+      <description>&lt;p&gt;Aarav is a bright student with a keen interest in science and mathematics. He is a class leader and participates in all school activities.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Akash</title>
       <link>http://localhost:1313/students/student-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/students/student-1/</guid>
       <description>&lt;p&gt;A dedicated student focusing on mathematics and science. Aksh consistently maintains high grades and actively participates in class discussions. He is also a member of the school&amp;rsquo;s mathematics club and has represented the school in several inter-school competitions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Anjali Verma</title>
+      <link>http://localhost:1313/students/student-9th-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/students/student-9th-5/</guid>
+      <description>&lt;p&gt;Anjali is working hard to improve her grades and enjoys painting in her free time.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Arjun Singh</title>
+      <link>http://localhost:1313/students/student-10th-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/students/student-10th-5/</guid>
+      <description>&lt;p&gt;Arjun is determined to improve his grades and is actively seeking help from teachers and peers.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Boopathi</title>
@@ -22,11 +43,95 @@
       <description>&lt;p&gt;A dedicated student focusing on mathematics and science. Aksh consistently maintains high grades and actively participates in class discussions. He is also a member of the school&amp;rsquo;s mathematics club and has represented the school in several inter-school competitions.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Divya Rao</title>
+      <link>http://localhost:1313/students/student-10th-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/students/student-10th-2/</guid>
+      <description>&lt;p&gt;Divya is an all-rounder, excelling in academics and extra-curricular activities.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Karthik Menon</title>
+      <link>http://localhost:1313/students/student-10th-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/students/student-10th-1/</guid>
+      <description>&lt;p&gt;Karthik is a consistent top scorer and is passionate about robotics and technology.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lakshmi Nair</title>
+      <link>http://localhost:1313/students/student-9th-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/students/student-9th-3/</guid>
+      <description>&lt;p&gt;Lakshmi is a hardworking student who excels in languages and social studies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Meera Joshi</title>
+      <link>http://localhost:1313/students/student-9th-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/students/student-9th-1/</guid>
+      <description>&lt;p&gt;Meera is a top performer in academics and sports. She is the captain of the school basketball team.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Neha Jain</title>
+      <link>http://localhost:1313/students/student-10th-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/students/student-10th-4/</guid>
+      <description>&lt;p&gt;Neha is a creative student who enjoys writing and drama, and is improving her academic performance.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Praveen</title>
       <link>http://localhost:1313/students/student2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/students/student2/</guid>
       <description>&lt;p&gt;A dedicated student focusing on mathematics and science. Praveen shows great interest in problem-solving and analytical thinking. He regularly participates in science fairs and has won several awards for his innovative projects.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Priya Sharma</title>
+      <link>http://localhost:1313/students/student-8th-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/students/student-8th-4/</guid>
+      <description>&lt;p&gt;Priya is a creative student who loves painting and literature. She actively participates in school art competitions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rahul Singh</title>
+      <link>http://localhost:1313/students/student-8th-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/students/student-8th-3/</guid>
+      <description>&lt;p&gt;Rahul is a diligent student who enjoys sports and mathematics. He is known for his teamwork and leadership skills.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rohan Das</title>
+      <link>http://localhost:1313/students/student-9th-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/students/student-9th-2/</guid>
+      <description>&lt;p&gt;Rohan is a science enthusiast and participates in national level science fairs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sanjay Gupta</title>
+      <link>http://localhost:1313/students/student-10th-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/students/student-10th-3/</guid>
+      <description>&lt;p&gt;Sanjay is a sports enthusiast and a good team player, balancing studies and athletics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sneha Reddy</title>
+      <link>http://localhost:1313/students/student-8th-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/students/student-8th-2/</guid>
+      <description>&lt;p&gt;Sneha is an enthusiastic learner, excelling in languages and arts. She is also a member of the school debate team.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Suresh Babu</title>
+      <link>http://localhost:1313/students/student-9th-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/students/student-9th-4/</guid>
+      <description>&lt;p&gt;Suresh is passionate about music and is a member of the school band.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vikram Patel</title>
+      <link>http://localhost:1313/students/student-8th-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/students/student-8th-5/</guid>
+      <description>&lt;p&gt;Vikram is a student who is working hard to improve his academic performance. He enjoys music and outdoor games.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,19 +2,55 @@
 <div style="background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
     <h1 style="color: #2c3e50; margin-bottom: 30px;">Students in {{ .Title }} Grade</h1>
     
+    <!-- Classification Filter Dropdown -->
+    <div style="margin-bottom: 20px;">
+        <label for="classificationFilter" style="font-weight: bold;">Filter by Classification:</label>
+        <select id="classificationFilter" style="margin-left: 10px; padding: 5px 10px; border-radius: 4px;">
+            <option value="all">All</option>
+            <option value="Distinction">Distinction (75%-100%)</option>
+            <option value="First Class">First Class (50%-75%)</option>
+            <option value="Second Class">Second Class (35%-50%)</option>
+            <option value="Failed">Failed (1%-35%)</option>
+        </select>
+        <a href="/students/" style="margin-left: 10px;">Show All Students</a>
+    </div>
+    <div style="margin-bottom: 20px; color: #888; font-size: 0.95em;">
+        <em>To see students filtered by both grade and classification, use the filter above.</em>
+    </div>
+
+    <div id="studentsList">
     {{ range .Pages }}
-    <div style="margin-bottom: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px;">
+    <div class="student-card" data-classification="{{ with .Params.classification }}{{ delimit . "," }}{{ end }}" style="margin-bottom: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px;">
         <h2 style="color: #34495e; margin-bottom: 10px;">
             <a href="{{ .RelPermalink }}" style="color: #34495e; text-decoration: none; hover: underline;">{{ .Title }}</a>
         </h2>
         {{ with .Params.rollNo }}<p style="color: #666;">Roll No: {{ . }}</p>{{ end }}
         {{ with .Params.email }}<p style="color: #666;">Contact: <a href="mailto:{{ . }}" style="color: #3498db; text-decoration: none;">{{ . }}</a></p>{{ end }}
+        {{ with .Params.percentage }}<p style="color: #666;">Percentage: {{ . }}%</p>{{ end }}
+        {{ with .Params.classification }}<p style="color: #666;">Classification: {{ delimit . ", " }}</p>{{ end }}
         {{ .Content }}
     </div>
     {{ end }}
+    </div>
 
     <div style="margin-top: 20px;">
         <a href="/students" style="background-color: #3498db; color: white; padding: 10px 20px; text-decoration: none; display: inline-block; border-radius: 5px;">← Back to All Students</a>
     </div>
 </div>
+<script>
+// Simple client-side filter for classification
+const filter = document.getElementById('classificationFilter');
+const students = document.querySelectorAll('.student-card');
+filter.addEventListener('change', function() {
+    const val = filter.value;
+    students.forEach(card => {
+        const cls = card.getAttribute('data-classification') || '';
+        if (val === 'all' || cls.includes(val)) {
+            card.style.display = '';
+        } else {
+            card.style.display = 'none';
+        }
+    });
+});
+</script>
 {{ end }} 
