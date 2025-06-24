@@ -9,6 +9,11 @@
         <a href="/tasks" style="background-color: #2ecc71; color: white; padding: 15px 30px; text-decoration: none; border-radius: 5px;">Tasks List</a>
     </div>
 
+    <!-- Search Bar (Pagefind) -->
+    <div style="width: 100%; max-width: 600px; margin: 30px auto;">
+      <div id="search"></div>
+    </div>
+
     <!-- Recently Added Tasks -->
     <div style="width: 100%; max-width: 800px; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
         <h2 style="color: #2c3e50; margin-bottom: 20px;">Recently Added Tasks</h2>
@@ -20,7 +25,7 @@
             {{ range $recentTasks }}
                 <div style="padding: 15px; background-color: #f8f9fa; border-radius: 5px;">
                     <h3 style="color: #34495e; margin: 0;">
-                        <a href="{{ .RelPermalink }}" style="color: #34495e; text-decoration: none; hover: underline;">{{ .Title }}</a>
+                        <a href="{{ .RelPermalink }}" style="color: #34495e; text-decoration: none;">{{ .Title }}</a>
                     </h3>
                     <p style="color: #666; margin: 5px 0;">Added: {{ .Date.Format "January 2, 2006" }}</p>
                     {{ with .Description }}
@@ -34,4 +39,13 @@
         {{ end }}
     </div>
 </div>
+
+<!-- Pagefind UI -->
+<script src="/pagefind/pagefind-ui.js"></script>
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+<script>
+  window.addEventListener('DOMContentLoaded', function() {
+    new PagefindUI({ element: "#search" });
+  });
+</script>
 {{ end }}

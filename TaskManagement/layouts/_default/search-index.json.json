@@ -1,0 +1,14 @@
+[
+{{- $sections := slice "students" "teachers" "tasks" -}}
+{{- $pages := where .Site.RegularPages "Section" "in" $sections -}}
+[
+{{- $items := slice -}}
+{{- range $pages -}}
+  {{- $items = $items | append (dict 
+    "title" .Title 
+    "url" .RelPermalink 
+    "content" .Plain 
+    "section" .Section) -}}
+{{- end -}}
+{{- delimit (apply $items "jsonify" ".") ",\n" -}}
+]
