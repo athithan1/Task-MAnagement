@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>9th on Task Management</title>
+    <link>http://localhost:1313/grades/9th/</link>
+    <description>Recent content in 9th on Task Management</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/grades/9th/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anjali Verma</title>
+      <link>http://localhost:1313/students/student-9th-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/students/student-9th-5/</guid>
+      <description>&lt;p&gt;Anjali is working hard to improve her grades and enjoys painting in her free time.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Boopathi</title>
+      <link>http://localhost:1313/students/boopathistudent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/students/boopathistudent/</guid>
+      <description>&lt;p&gt;A dedicated student focusing on mathematics and science. Aksh consistently maintains high grades and actively participates in class discussions. He is also a member of the school&amp;rsquo;s mathematics club and has represented the school in several inter-school competitions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lakshmi Nair</title>
+      <link>http://localhost:1313/students/student-9th-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/students/student-9th-3/</guid>
+      <description>&lt;p&gt;Lakshmi is a hardworking student who excels in languages and social studies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Meera Joshi</title>
+      <link>http://localhost:1313/students/student-9th-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/students/student-9th-1/</guid>
+      <description>&lt;p&gt;Meera is a top performer in academics and sports. She is the captain of the school basketball team.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rohan Das</title>
+      <link>http://localhost:1313/students/student-9th-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/students/student-9th-2/</guid>
+      <description>&lt;p&gt;Rohan is a science enthusiast and participates in national level science fairs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Suresh Babu</title>
+      <link>http://localhost:1313/students/student-9th-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/students/student-9th-4/</guid>
+      <description>&lt;p&gt;Suresh is passionate about music and is a member of the school band.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

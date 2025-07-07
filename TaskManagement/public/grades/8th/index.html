@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <title>8th</title>
+    <script src="/js/search.js"></script>
+</head>
+<body style="margin: 0; display: flex; justify-content: center; min-height: 100vh; background-color: #f0f8ff;">
+    <div style="width: 100%; max-width: 800px; padding: 20px; text-align: center;">
+        <div style="margin-bottom: 20px;">
+            <a href="/" style="background-color: #eb07a6; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Back to Home</a>
+        </div>
+        <div style="margin-bottom: 20px;">
+            <input type="text" id="search-box" placeholder="Search..." style="width: 60%; padding: 8px; border-radius: 4px; border: 1px solid #ccc;">
+            <ul id="search-results" style="list-style: none; padding: 0; margin-top: 10px;"></ul>
+        </div>
+        
+<div style="background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h1 style="color: #2c3e50; margin-bottom: 30px;">Students in 8th Grade</h1>
+    
+    
+    <div style="margin-bottom: 20px;">
+        <label for="classificationFilter" style="font-weight: bold;">Filter by Classification:</label>
+        <select id="classificationFilter" style="margin-left: 10px; padding: 5px 10px; border-radius: 4px;">
+            <option value="all">All</option>
+            <option value="Distinction">Distinction (75%-100%)</option>
+            <option value="First Class">First Class (50%-75%)</option>
+            <option value="Second Class">Second Class (35%-50%)</option>
+            <option value="Failed">Failed (1%-35%)</option>
+        </select>
+        <a href="/students/" style="margin-left: 10px;">Show All Students</a>
+    </div>
+    <div style="margin-bottom: 20px; color: #888; font-size: 0.95em;">
+        <em>To see students filtered by both grade and classification, use the filter above.</em>
+    </div>
+
+    <div id="studentsList">
+    
+    <div class="student-card" data-classification="Distinction" style="margin-bottom: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px;">
+        <h2 style="color: #34495e; margin-bottom: 10px;">
+            <a href="/students/student-8th-1/" style="color: #34495e; text-decoration: none; hover: underline;">Aarav Kumar</a>
+        </h2>
+        <p style="color: #666;">Roll No: 801</p>
+        <p style="color: #666;">Contact: <a href="mailto:aarav8th1@school.com" style="color: #3498db; text-decoration: none;">aarav8th1@school.com</a></p>
+        <p style="color: #666;">Percentage: 92%</p>
+        <p style="color: #666;">Classification: Distinction</p>
+        <p>Aarav is a bright student with a keen interest in science and mathematics. He is a class leader and participates in all school activities.</p>
+
+    </div>
+    
+    <div class="student-card" data-classification="Second Class" style="margin-bottom: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px;">
+        <h2 style="color: #34495e; margin-bottom: 10px;">
+            <a href="/students/student-8th-4/" style="color: #34495e; text-decoration: none; hover: underline;">Priya Sharma</a>
+        </h2>
+        <p style="color: #666;">Roll No: 804</p>
+        <p style="color: #666;">Contact: <a href="mailto:priya8th4@school.com" style="color: #3498db; text-decoration: none;">priya8th4@school.com</a></p>
+        <p style="color: #666;">Percentage: 45%</p>
+        <p style="color: #666;">Classification: Second Class</p>
+        <p>Priya is a creative student who loves painting and literature. She actively participates in school art competitions.</p>
+
+    </div>
+    
+    <div class="student-card" data-classification="First Class" style="margin-bottom: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px;">
+        <h2 style="color: #34495e; margin-bottom: 10px;">
+            <a href="/students/student-8th-3/" style="color: #34495e; text-decoration: none; hover: underline;">Rahul Singh</a>
+        </h2>
+        <p style="color: #666;">Roll No: 803</p>
+        <p style="color: #666;">Contact: <a href="mailto:rahul8th3@school.com" style="color: #3498db; text-decoration: none;">rahul8th3@school.com</a></p>
+        <p style="color: #666;">Percentage: 72%</p>
+        <p style="color: #666;">Classification: First Class</p>
+        <p>Rahul is a diligent student who enjoys sports and mathematics. He is known for his teamwork and leadership skills.</p>
+
+    </div>
+    
+    <div class="student-card" data-classification="Distinction" style="margin-bottom: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px;">
+        <h2 style="color: #34495e; margin-bottom: 10px;">
+            <a href="/students/student-8th-2/" style="color: #34495e; text-decoration: none; hover: underline;">Sneha Reddy</a>
+        </h2>
+        <p style="color: #666;">Roll No: 802</p>
+        <p style="color: #666;">Contact: <a href="mailto:sneha8th2@school.com" style="color: #3498db; text-decoration: none;">sneha8th2@school.com</a></p>
+        <p style="color: #666;">Percentage: 88%</p>
+        <p style="color: #666;">Classification: Distinction</p>
+        <p>Sneha is an enthusiastic learner, excelling in languages and arts. She is also a member of the school debate team.</p>
+
+    </div>
+    
+    <div class="student-card" data-classification="Failed" style="margin-bottom: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px;">
+        <h2 style="color: #34495e; margin-bottom: 10px;">
+            <a href="/students/student-8th-5/" style="color: #34495e; text-decoration: none; hover: underline;">Vikram Patel</a>
+        </h2>
+        <p style="color: #666;">Roll No: 805</p>
+        <p style="color: #666;">Contact: <a href="mailto:vikram8th5@school.com" style="color: #3498db; text-decoration: none;">vikram8th5@school.com</a></p>
+        <p style="color: #666;">Percentage: 30%</p>
+        <p style="color: #666;">Classification: Failed</p>
+        <p>Vikram is a student who is working hard to improve his academic performance. He enjoys music and outdoor games.</p>
+
+    </div>
+    
+    </div>
+
+    <div style="margin-top: 20px;">
+        <a href="/students" style="background-color: #3498db; color: white; padding: 10px 20px; text-decoration: none; display: inline-block; border-radius: 5px;">← Back to All Students</a>
+    </div>
+</div>
+<script>
+
+const filter = document.getElementById('classificationFilter');
+const students = document.querySelectorAll('.student-card');
+filter.addEventListener('change', function() {
+    const val = filter.value;
+    students.forEach(card => {
+        const cls = card.getAttribute('data-classification') || '';
+        if (val === 'all' || cls.includes(val)) {
+            card.style.display = '';
+        } else {
+            card.style.display = 'none';
+        }
+    });
+});
+</script>
+
+    </div>
+</body>
+</html>

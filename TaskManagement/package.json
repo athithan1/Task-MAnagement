@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "hugo-lunr": "^0.0.4"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3"
+  },
+  "scripts": {
+    "postbuild": "node generate-lunr.js",
+    "dev": "npm run postbuild && hugo serve"
+  }
+}

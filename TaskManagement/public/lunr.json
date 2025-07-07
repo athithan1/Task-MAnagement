@@ -1,0 +1,126 @@
+[
+  {
+    "title": "Students",
+    "uri": "/students/"
+  },
+  {
+    "title": "Boopathi",
+    "uri": "/students/boopathistudent/"
+  },
+  {
+    "title": "Akash",
+    "uri": "/students/student-1/"
+  },
+  {
+    "title": "Karthik Menon",
+    "uri": "/students/student-10th-1/"
+  },
+  {
+    "title": "Divya Rao",
+    "uri": "/students/student-10th-2/"
+  },
+  {
+    "title": "Sanjay Gupta",
+    "uri": "/students/student-10th-3/"
+  },
+  {
+    "title": "Neha Jain",
+    "uri": "/students/student-10th-4/"
+  },
+  {
+    "title": "Arjun Singh",
+    "uri": "/students/student-10th-5/"
+  },
+  {
+    "title": "Aarav Kumar",
+    "uri": "/students/student-8th-1/"
+  },
+  {
+    "title": "Sneha Reddy",
+    "uri": "/students/student-8th-2/"
+  },
+  {
+    "title": "Rahul Singh",
+    "uri": "/students/student-8th-3/"
+  },
+  {
+    "title": "Priya Sharma",
+    "uri": "/students/student-8th-4/"
+  },
+  {
+    "title": "Vikram Patel",
+    "uri": "/students/student-8th-5/"
+  },
+  {
+    "title": "Meera Joshi",
+    "uri": "/students/student-9th-1/"
+  },
+  {
+    "title": "Rohan Das",
+    "uri": "/students/student-9th-2/"
+  },
+  {
+    "title": "Lakshmi Nair",
+    "uri": "/students/student-9th-3/"
+  },
+  {
+    "title": "Suresh Babu",
+    "uri": "/students/student-9th-4/"
+  },
+  {
+    "title": "Anjali Verma",
+    "uri": "/students/student-9th-5/"
+  },
+  {
+    "title": "Praveen",
+    "uri": "/students/student2/"
+  },
+  {
+    "title": "Teachers",
+    "uri": "/teachers/"
+  },
+  {
+    "title": "Boopathi",
+    "uri": "/teachers/boopathi/"
+  },
+  {
+    "title": "Dhanush",
+    "uri": "/teachers/dhanush/"
+  },
+  {
+    "title": "Sarah Johnson",
+    "uri": "/teachers/english-teacher/"
+  },
+  {
+    "title": "Ramesh Kumar",
+    "uri": "/teachers/maths-teacher-2/"
+  },
+  {
+    "title": "Priya Raman",
+    "uri": "/teachers/tamil-teacher/"
+  },
+  {
+    "title": "Athithan P",
+    "uri": "/teachers/teacher-1/"
+  },
+  {
+    "title": "Tasks",
+    "uri": "/tasks/"
+  },
+  {
+    "title": "Mathematics Assignment",
+    "uri": "/tasks/task-1/"
+  },
+  {
+    "title": "Mathematics Assignment 02",
+    "uri": "/tasks/task-2/"
+  },
+  {
+    "title": "Subjects",
+    "uri": "/subjects/"
+  },
+  {
+    "title": "Task Management",
+    "uri": "/"
+  }
+]

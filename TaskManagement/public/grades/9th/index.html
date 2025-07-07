@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <title>9th</title>
+    <script src="/js/search.js"></script>
+</head>
+<body style="margin: 0; display: flex; justify-content: center; min-height: 100vh; background-color: #f0f8ff;">
+    <div style="width: 100%; max-width: 800px; padding: 20px; text-align: center;">
+        <div style="margin-bottom: 20px;">
+            <a href="/" style="background-color: #eb07a6; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Back to Home</a>
+        </div>
+        <div style="margin-bottom: 20px;">
+            <input type="text" id="search-box" placeholder="Search..." style="width: 60%; padding: 8px; border-radius: 4px; border: 1px solid #ccc;">
+            <ul id="search-results" style="list-style: none; padding: 0; margin-top: 10px;"></ul>
+        </div>
+        
+<div style="background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h1 style="color: #2c3e50; margin-bottom: 30px;">Students in 9th Grade</h1>
+    
+    
+    <div style="margin-bottom: 20px;">
+        <label for="classificationFilter" style="font-weight: bold;">Filter by Classification:</label>
+        <select id="classificationFilter" style="margin-left: 10px; padding: 5px 10px; border-radius: 4px;">
+            <option value="all">All</option>
+            <option value="Distinction">Distinction (75%-100%)</option>
+            <option value="First Class">First Class (50%-75%)</option>
+            <option value="Second Class">Second Class (35%-50%)</option>
+            <option value="Failed">Failed (1%-35%)</option>
+        </select>
+        <a href="/students/" style="margin-left: 10px;">Show All Students</a>
+    </div>
+    <div style="margin-bottom: 20px; color: #888; font-size: 0.95em;">
+        <em>To see students filtered by both grade and classification, use the filter above.</em>
+    </div>
+
+    <div id="studentsList">
+    
+    <div class="student-card" data-classification="Failed" style="margin-bottom: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px;">
+        <h2 style="color: #34495e; margin-bottom: 10px;">
+            <a href="/students/student-9th-5/" style="color: #34495e; text-decoration: none; hover: underline;">Anjali Verma</a>
+        </h2>
+        <p style="color: #666;">Roll No: 905</p>
+        <p style="color: #666;">Contact: <a href="mailto:anjali9th5@school.com" style="color: #3498db; text-decoration: none;">anjali9th5@school.com</a></p>
+        <p style="color: #666;">Percentage: 25%</p>
+        <p style="color: #666;">Classification: Failed</p>
+        <p>Anjali is working hard to improve her grades and enjoys painting in her free time.</p>
+
+    </div>
+    
+    <div class="student-card" data-classification="" style="margin-bottom: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px;">
+        <h2 style="color: #34495e; margin-bottom: 10px;">
+            <a href="/students/boopathistudent/" style="color: #34495e; text-decoration: none; hover: underline;">Boopathi</a>
+        </h2>
+        <p style="color: #666;">Roll No: 10123</p>
+        <p style="color: #666;">Contact: <a href="mailto:akash@school.com" style="color: #3498db; text-decoration: none;">akash@school.com</a></p>
+        
+        
+        <p>A dedicated student focusing on mathematics and science. Aksh consistently maintains high grades and actively participates in class discussions. He is also a member of the school&rsquo;s mathematics club and has represented the school in several inter-school competitions.</p>
+
+    </div>
+    
+    <div class="student-card" data-classification="First Class" style="margin-bottom: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px;">
+        <h2 style="color: #34495e; margin-bottom: 10px;">
+            <a href="/students/student-9th-3/" style="color: #34495e; text-decoration: none; hover: underline;">Lakshmi Nair</a>
+        </h2>
+        <p style="color: #666;">Roll No: 903</p>
+        <p style="color: #666;">Contact: <a href="mailto:lakshmi9th3@school.com" style="color: #3498db; text-decoration: none;">lakshmi9th3@school.com</a></p>
+        <p style="color: #666;">Percentage: 70%</p>
+        <p style="color: #666;">Classification: First Class</p>
+        <p>Lakshmi is a hardworking student who excels in languages and social studies.</p>
+
+    </div>
+    
+    <div class="student-card" data-classification="Distinction" style="margin-bottom: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px;">
+        <h2 style="color: #34495e; margin-bottom: 10px;">
+            <a href="/students/student-9th-1/" style="color: #34495e; text-decoration: none; hover: underline;">Meera Joshi</a>
+        </h2>
+        <p style="color: #666;">Roll No: 901</p>
+        <p style="color: #666;">Contact: <a href="mailto:meera9th1@school.com" style="color: #3498db; text-decoration: none;">meera9th1@school.com</a></p>
+        <p style="color: #666;">Percentage: 95%</p>
+        <p style="color: #666;">Classification: Distinction</p>
+        <p>Meera is a top performer in academics and sports. She is the captain of the school basketball team.</p>
+
+    </div>
+    
+    <div class="student-card" data-classification="Distinction" style="margin-bottom: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px;">
+        <h2 style="color: #34495e; margin-bottom: 10px;">
+            <a href="/students/student-9th-2/" style="color: #34495e; text-decoration: none; hover: underline;">Rohan Das</a>
+        </h2>
+        <p style="color: #666;">Roll No: 902</p>
+        <p style="color: #666;">Contact: <a href="mailto:rohan9th2@school.com" style="color: #3498db; text-decoration: none;">rohan9th2@school.com</a></p>
+        <p style="color: #666;">Percentage: 89%</p>
+        <p style="color: #666;">Classification: Distinction</p>
+        <p>Rohan is a science enthusiast and participates in national level science fairs.</p>
+
+    </div>
+    
+    <div class="student-card" data-classification="Second Class" style="margin-bottom: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px;">
+        <h2 style="color: #34495e; margin-bottom: 10px;">
+            <a href="/students/student-9th-4/" style="color: #34495e; text-decoration: none; hover: underline;">Suresh Babu</a>
+        </h2>
+        <p style="color: #666;">Roll No: 904</p>
+        <p style="color: #666;">Contact: <a href="mailto:suresh9th4@school.com" style="color: #3498db; text-decoration: none;">suresh9th4@school.com</a></p>
+        <p style="color: #666;">Percentage: 40%</p>
+        <p style="color: #666;">Classification: Second Class</p>
+        <p>Suresh is passionate about music and is a member of the school band.</p>
+
+    </div>
+    
+    </div>
+
+    <div style="margin-top: 20px;">
+        <a href="/students" style="background-color: #3498db; color: white; padding: 10px 20px; text-decoration: none; display: inline-block; border-radius: 5px;">← Back to All Students</a>
+    </div>
+</div>
+<script>
+
+const filter = document.getElementById('classificationFilter');
+const students = document.querySelectorAll('.student-card');
+filter.addEventListener('change', function() {
+    const val = filter.value;
+    students.forEach(card => {
+        const cls = card.getAttribute('data-classification') || '';
+        if (val === 'all' || cls.includes(val)) {
+            card.style.display = '';
+        } else {
+            card.style.display = 'none';
+        }
+    });
+});
+</script>
+
+    </div>
+</body>
+</html>

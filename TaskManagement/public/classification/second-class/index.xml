@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Second Class on Task Management</title>
+    <link>http://localhost:1313/classification/second-class/</link>
+    <description>Recent content in Second Class on Task Management</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/classification/second-class/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Neha Jain</title>
+      <link>http://localhost:1313/students/student-10th-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/students/student-10th-4/</guid>
+      <description>&lt;p&gt;Neha is a creative student who enjoys writing and drama, and is improving her academic performance.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Priya Sharma</title>
+      <link>http://localhost:1313/students/student-8th-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/students/student-8th-4/</guid>
+      <description>&lt;p&gt;Priya is a creative student who loves painting and literature. She actively participates in school art competitions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Suresh Babu</title>
+      <link>http://localhost:1313/students/student-9th-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/students/student-9th-4/</guid>
+      <description>&lt;p&gt;Suresh is passionate about music and is a member of the school band.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
