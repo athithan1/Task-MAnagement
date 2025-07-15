@@ -8,6 +8,10 @@ address: "1, Pine Avenue, City"
 parentName: "Mr. Menon"
 parentContact: "+91 9000001201"
 marks: 90
+datecreated: "2025-07-01"
+dateupdated: "2025-07-15"
+datecreated: "2025-07-01"
+dateupdated: "2025-07-15"
 percentage: 90
 classification: ["Distinction"]
 ---

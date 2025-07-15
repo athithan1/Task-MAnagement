@@ -8,6 +8,8 @@ address: "1, Lotus Street, City"
 parentName: "Mrs. Joshi"
 parentContact: "+91 9000001101"
 marks: 95
+datecreated: "2025-07-01"
+dateupdated: "2025-07-15"
 percentage: 95
 classification: ["Distinction"]
 ---

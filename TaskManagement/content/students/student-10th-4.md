@@ -8,6 +8,10 @@ address: "4, Birch Avenue, City"
 parentName: "Mrs. Jain"
 parentContact: "+91 9000001204"
 marks: 48
+datecreated: "2025-07-01"
+dateupdated: "2025-07-15"
+lastActive: "2025-07-15"
+draft: false
 percentage: 48
 classification: ["Second Class"]
 ---

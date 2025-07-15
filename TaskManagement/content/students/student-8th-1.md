@@ -8,6 +8,8 @@ address: "1, Green Lane, City"
 parentName: "Mr. Kumar"
 parentContact: "+91 9000001001"
 marks: 92
+datecreated: "2025-07-01"
+dateupdated: "2025-07-15"
 percentage: 92
 classification: ["Distinction"]
 ---

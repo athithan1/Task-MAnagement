@@ -8,6 +8,8 @@ address: "2, Maple Avenue, City"
 parentName: "Mrs. Rao"
 parentContact: "+91 9000001202"
 marks: 85
+datecreated: "2025-07-01"
+dateupdated: "2025-07-15"
 percentage: 85
 classification: ["Distinction"]
 ---

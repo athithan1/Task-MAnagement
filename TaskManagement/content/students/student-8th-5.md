@@ -8,6 +8,11 @@ address: "5, Orange Lane, City"
 parentName: "Mr. Patel"
 parentContact: "+91 9000001005"
 marks: 30
+datecreated: "2025-06-01"
+dateupdated: "2025-06-14"
+draft: true
+lastActive: "2025-06-15"
+draft: true
 percentage: 30
 classification: ["Failed"]
 ---

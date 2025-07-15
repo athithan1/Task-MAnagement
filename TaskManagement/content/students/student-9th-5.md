@@ -8,6 +8,11 @@ address: "5, Orchid Street, City"
 parentName: "Mrs. Verma"
 parentContact: "+91 9000001105"
 marks: 25
+datecreated: "2025-06-01"
+dateupdated: "2025-06-14"
+draft: true
+lastActive: "2025-06-15"
+draft: true
 percentage: 25
 classification: ["Failed"]
 ---
